@@ -1,0 +1,174 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #31302b;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.logo-wrapper {
+  margin-bottom: 30px;
+}
+img {
+	max-width: 100%;
+}
+
+.avtorization {
+  max-width: 370px;
+  height: 305px;
+  margin-bottom: 40px;
+  background-color: #ffffff; 
+  border-radius: 4px;
+  box-shadow: 0 0 0 8px #464541;
+              
+}
+
+.avtorization-header {
+	height: 55px;
+	line-height: 55px;
+	background-color: #f2672e;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	
+
+}
+
+.avtorization-form {
+	position: relative;
+	padding: 30px 50px;
+
+}
+
+
+input[type="text"],
+input[type="password"] {
+	
+	width: 220px;
+	height: 40px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	color: #ded9cf;
+	padding-left: 50px;
+	background-color: #f0e4cc;
+	border: none;
+	outline: none;
+	opacity: 0.4;
+	
+
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+	cursor: pointer;
+	box-shadow: 0 0 5px 2px #464541;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	opacity: 0;
+}
+
+
+.fa {
+	position: absolute;
+	width: 40px;
+	height: 42px;
+	color: #dbd3c3;    
+	background-color: #676056;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.fa-user {
+	top: 30.5px;
+	left: 50px;
+	z-index: 1;
+
+}
+
+.fa-lock {
+   	top: 87px;
+	left: 50px;
+    z-index: 1;
+
+}
+
+.btn {
+	width: 270px;
+	height: 40px;
+	margin-bottom: 25px;
+	color: #ffffff;
+	background-color: #f2672e;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+}
+
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0 5px 2px #f2672e;
+}
+
+
+.checkbox-form {
+	display: none;
+
+
+}
+
+.checkbox-custom {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #f2672e;
+}
+
+.checkbox-custom,
+.checkbox-label {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.checkbox-label {
+	color: #a7a599;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.checkbox-form:checked +
+.checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	background: url("../img/checkbox-custom.png") no-repeat;
+}
+
+.forgot {
+	display: inline-block;
+	float: right;
+	color: #a7a599;
+	font-size: 12px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.copyright {
+	color: #828078;
+}
